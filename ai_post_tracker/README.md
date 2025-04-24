@@ -38,6 +38,50 @@ This is a client-side only application with no backend requirements. All data is
 4. Watch your progress tracker update automatically
 5. The application will track up to 7 days of progress
 
+
+## Installation and Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone hhttps://github.com/swarnim190/MBA680_Business-Applications-in-AI.git
+   cd 7-days-of-ai-tracker
+   ```
+
+2. **Run locally**
+   - Option 1: Simply open the `index.html` file in your web browser
+   ```bash
+   # On Windows
+   start index.html
+   
+   # On macOS
+   open index.html
+   
+   # On Linux
+   xdg-open index.html
+   ```
+   
+   - Option 2: Use a local development server
+     - With Python:
+     ```bash
+     # Python 3
+     python -m http.server
+     
+     # Python 2
+     python -m SimpleHTTPServer
+     ```
+     Then open `http://localhost:8000` in your browser
+     
+     - With Node.js (requires npm and http-server package):
+     ```bash
+     npm install -g http-server
+     http-server
+     ```
+     Then open `http://localhost:8080` in your browser
+
+3. **No build process required**
+   - This is a vanilla JavaScript application with no build steps
+   - Changes to HTML, CSS, or JavaScript files will be immediately available on page refresh
+
 ## Project Structure
 
 - `index.html` - Main HTML file containing the application structure
