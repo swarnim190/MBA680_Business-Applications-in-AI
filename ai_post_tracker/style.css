@@ -1,0 +1,116 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f2ef;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #283e4a;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #0073b1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.post {
+  background-color: #eef3f8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.tracker-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.label-section {
+  text-align: left;
+}
+.label-top {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.ribbon-horizontal {
+  background-color: #d2232a;
+  color: white;
+  font-weight: bold;
+  padding: 8px 20px;
+  font-size: 1em;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.horizontal-boxes {
+  display: flex;
+  gap: 10px;
+}
+.check-box {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+.check-box.checked::before {
+  content: '✔';
+  color: black;
+}
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+.uofl-logo {
+  width: 150px;
+  margin-top: 20px;
+}
+.hashtags {
+  font-weight: bold;
+  color: #0073b1;
+  margin-top: 10px;
+}
+
+
+.ribbon-horizontal {
+  background-color: #d2232a;
+  color: white;
+  font-weight: bold;
+  padding: 8px 20px;
+  font-size: 1em;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

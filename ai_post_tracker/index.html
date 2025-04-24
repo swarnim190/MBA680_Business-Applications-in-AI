@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>7 Days of AI Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>7 Days of AI Tracker</header>
+  <div class="container">
+    <textarea id="postContent" placeholder="Post your daily AI learning progress here..."></textarea>
+    <button onclick="submitPost()">Post Update</button>
+    <div id="posts"></div>
+
+    <div class="tracker-flex">
+      <div class="label-section">
+        <div class="label-top">I've completed</div>
+        <div class="ribbon-horizontal" id="day-label">Day 0</div>
+      </div>
+      <div class="horizontal-boxes">
+        <div class="check-box" id="hbox1"></div>
+        <div class="check-box" id="hbox2"></div>
+        <div class="check-box" id="hbox3"></div>
+        <div class="check-box" id="hbox4"></div>
+        <div class="check-box" id="hbox5"></div>
+        <div class="check-box" id="hbox6"></div>
+        <div class="check-box" id="hbox7"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <img src="uofl_correct_logo.png" alt="UofL Logo" class="uofl-logo" />
+      <div class="hashtags">
+        #UofL #OnlineMBA #AI #GitHubCopilot #DevTools #7DaysOfAI
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
