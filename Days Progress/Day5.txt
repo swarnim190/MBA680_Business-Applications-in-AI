@@ -1,0 +1,2 @@
+Day 5:
+I used Copilot to generate the basic idea for the function and then used Cursor to refine it and make the code cleaner and more efficient. 
