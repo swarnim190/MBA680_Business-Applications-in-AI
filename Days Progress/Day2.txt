@@ -1,1 +1,3 @@
 
+Day 2:
+I used the GitHub Copilot extension with the simple code I built. I used Copilot to help complete parts of the posting and tracking functionality, and focused on getting comfortable with how it suggests code based on my comments. I also started shaping the app to mimic the idea of a daily LinkedIn post tracker, where users could post updates each day.
