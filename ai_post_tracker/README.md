@@ -17,6 +17,7 @@ This is a client-side only application with no backend requirements. All data is
 1. **Daily Progress Tracking**
    - Users can post updates about their AI learning progress
    - Each post is timestamped and displayed in reverse chronological order
+   - Posts are formatted with a bold day title, content, and smaller timestamp
    - Limited to 7 posts (one per day)
 
 2. **Visual Progress Tracker**
@@ -29,21 +30,22 @@ This is a client-side only application with no backend requirements. All data is
    - Responsive layout
    - University of Louisville branding
    - Social media hashtags integration
+   - Personalization: Users can add their name to customize the tracker title
 
 ## How to Use
 
 1. Open `index.html` in any modern web browser
-2. Enter your daily AI learning progress in the text area
-3. Click "Post Update" to submit your progress
-4. Watch your progress tracker update automatically
-5. The application will track up to 7 days of progress
-
+2. Enter your name in the input field and click "Personalize Tracker" to customize the title
+3. Enter your daily AI learning progress in the text area
+4. Click "Post Update" to submit your progress
+5. Watch your progress tracker update automatically
+6. The application will track up to 7 days of progress
 
 ## Installation and Setup
 
 1. **Clone the repository**
    ```bash
-   git clone hhttps://github.com/swarnim190/MBA680_Business-Applications-in-AI.git
+   git clone https://github.com/yourusername/7-days-of-ai-tracker.git
    cd 7-days-of-ai-tracker
    ```
 
