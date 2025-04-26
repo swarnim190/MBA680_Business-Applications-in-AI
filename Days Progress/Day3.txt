@@ -1,1 +1,3 @@
 
+Day 3:
+I added more functionality to my project, like improving how posts were tracked and adding visual checkboxes to show daily progress. After finishing these updates using Copilot, I started watching videos about Cursor, another AI-powered code editor. After learning the basics, I installed Cursor on my system project. 
