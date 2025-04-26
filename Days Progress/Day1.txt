@@ -1,1 +1,3 @@
 
+Day 1:
+I started by watching GitHub Copilot tutorial videos from Visual Studio Code to understand how Copilot works. After that, I installed the GitHub Copilot extension inside my Visual Studio Code. I also created a basic project called ai_post_tracker using HTML, CSS, and JavaScript, setting up a simple codebase to practice with Copilot. I committed the starting version of the project to GitHub.
