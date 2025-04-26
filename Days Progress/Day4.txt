@@ -1,0 +1,2 @@
+Day 4:
+I used Cursor to make improvements to my project. Cursor helped me clean up the JavaScript code, and it made my CSS a little cleaner and more organized. I also asked Cursor to create a basic README file for my project, describing what it does and how to run it. I committed these updates, including the new README, to GitHub.
